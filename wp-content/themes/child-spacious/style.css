@@ -1,0 +1,63 @@
+/*
+Theme Name: Child spacious
+Description: Theme enfant de Spacious
+Author: Bas - Consulting
+Author URI: https://www.bas-consulting.fr
+Template: spacious
+Version: 0.1.0
+*/
+
+input[type="tel"],
+select[name="menu-96"]{
+	padding: 1%;
+	border: 1px solid #EAEAEA;
+	line-height: 20px;
+	width: 98%;
+	margin: 0 0 30px;
+	background-color: #F8F8F8;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+}
+input[type="tel"]:focus,
+select[name="menu-96"]{
+	border: 1px solid #EAEAEA;
+}
+
+/* isotop */
+.grid-item { width: 25%; }
+.grid-item--width2 { width: 50%; }
+.grid-item { padding-left: 15px;  padding-right: 15px; }
+.page-template-page-formation .grid{margin-left: 125px;}
+
+.illustration img {
+  width: 100%;
+  display: block;
+}
+
+/* page 35*/
+.page-id-35 h2.widgettitle {
+	text-align: center; 
+	font-size: 25px;
+}
+.page-id-35 h2.widgettitle a {
+	pointer-events: none;
+	cursor: default;
+}
+.page-id-35 #spacious_service_widget-4 .more-link-wrap a {
+	display:none;
+}
+
+
+@media screen and (max-width: 650px)
+{
+    .page-template-page-formation .grid
+    {
+        margin-left: 7%;
+    }
+	 .page-template-page-formation .grid-item
+    {
+        width: calc(100vW/2.5);
+        box-sizing: border-box;
+    }
+}
