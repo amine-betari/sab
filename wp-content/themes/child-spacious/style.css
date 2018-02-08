@@ -61,3 +61,19 @@ select[name="menu-96"]{
         box-sizing: border-box;
     }
 }
+.service-button{
+    color: #FFFFFF;
+    display: inline-block;
+    margin-bottom: 30px;
+    padding: 5px 25px;
+    -moz-appearance: none !important;
+    -webkit-appearance: none !important;
+    appearance: none !important;
+    cursor: pointer;
+    background-color: #0FBE7C;
+    border: 0px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    font-size: 16px;
+}
